@@ -1,0 +1,84 @@
+/* .hero {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+} */
+* {
+  font-family: "Allerta Stencil", sans-serif;
+}
+.hero-container {
+  background-image: url(/assets/bgport.jpg);
+  background-size: cover;
+  min-height: 80vh;
+  background-attachment: fixed;
+  flex-wrap: wrap;
+}
+.hero-text {
+  margin: 20rem 15rem;
+}
+.vertical-line {
+  border-left: 2px solid #000000;
+  height: 5rem;
+}
+
+h2::after {
+  display: block;
+  background-color: #000;
+  margin: 2rem auto;
+  height: 2px;
+  width: 300px;
+  content: "";
+}
+.catchup {
+  margin-left: 10px;
+}
+
+/* .vertical-social {
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+  left: 2%;
+  height: 5rem;
+} */
+.social-icons > .vertical-text {
+  transform: rotate(-90deg);
+  font-size: 1.2em;
+  margin-right: 30px;
+}
+.social-icons {
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+}
+/* .social-icons ul {
+  list-style: none;
+  padding: initial;
+} */
+.socials {
+  margin-top: 10px;
+}
+.fa-github,
+.fa-instagram,
+.fa-linkedin {
+  font-size: 2rem;
+  margin: auto;
+  transform: rotate(90deg);
+}
+.global-header {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+.skills {
+  font-size: 80px;
+  letter-spacing: 60px;
+}
+.project-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card img {
+  width: 500px;
+  height: 300px;
+}
